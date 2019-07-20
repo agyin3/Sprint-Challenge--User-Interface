@@ -161,3 +161,32 @@ footer nav a {
     text-decoration: none;
 }
 
+/* Media Queries */ 
+
+@media only screen and (max-width: 800px) {
+    .container {
+        width: 80%;
+    }
+
+    .nav-logo {
+        display: none;
+    }
+
+    .nav-bar {
+        width: 100%;
+    }
+
+    .jumbo {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .about-content {
+        width: 100%;
+    }
+
+    .about-content img {
+        width: 100%;
+    }
+}
+
